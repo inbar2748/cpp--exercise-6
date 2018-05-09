@@ -29,13 +29,13 @@ Board::Board(int s) {
 
 
 Board::~Board() {
-	/*
-	for (int i = 0; i < size_(); ++i) {
+	
+	for (int i = 0; i < size_(); i++) {
 
 		delete[] b[i];
 
 	}
-	*/
+	
 	delete[] b;
 
 }
